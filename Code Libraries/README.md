@@ -15,3 +15,8 @@ while read line; do grep "$line" patients.csv | cut -f8,9 -d "," | sed "s/[,]/\.
 shuf -i 10000-10000000000 -n 10 | sed "s/^/&+39/g" > 04_Phone_numbers.list
 ```
 4. Create synthetic address of the patients using the website https://www.bestrandoms.com/random-address-in-it.
+5. Fetch the encounters for each patient from encounters.csv file
+```
+while read line; do grep "$line" encounters.csv | cut -f2,4,8,10 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" |  sed -e "s/Z\,/\,/1" >> 05_Encounters.csv; done < 01_Patients10.list
+```
+6. Fetch the obser
