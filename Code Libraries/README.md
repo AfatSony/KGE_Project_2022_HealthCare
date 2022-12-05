@@ -19,6 +19,6 @@ shuf -i 10000-10000000000 -n 10 | sed "s/^/&+39/g" > 04_Phone_numbers.list
 ```
 while read line; do grep "$line" encounters.csv | cut -f2,4,8,10 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" |  sed -e "s/Z\,/\,/1" >> 05_Encounters.csv; done < 01_Patients10.list
 ```
-We combined the data of 05_Encounters.csv and CNR-Rome as we need the only those encounter IDs for fetching several properties of the patients (such as healthissue, observations, diagnostics and medications of the patient) which map to a specific date in the 05_Encounters.csv. 
+We combined the data of 05_Encounters.csv and CNR-Rome as we need only those encounter IDs which map to a specific date in the 05_Encounters.csv for fetching several properties of the patients (such as healthissue, observations, diagnostics and medications of the patient) . 
 
 6. Fetch the healthissue of each patient from the file containing combined data of CNR-rome patient and 05_Encounters.csv. 
