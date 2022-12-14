@@ -21,4 +21,5 @@ while read line; do grep "$line" encounters.csv | cut -f2,4,8,10 -d"," | sed "s/
 ```
 We combined the data of 05_Encounters.csv and CNR-Rome as we need only those encounter IDs which map to a specific date in the 05_Encounters.csv for fetching several properties of the patients (such as healthissue, observations, diagnostics and medications of the patient) . 
 
-6. Fetch the healthissue of each patient from the file containing combined data of CNR-rome patient and 05_Encounters.csv. 
+6. Fetch the healthissue of each patient from the file 05_Encounters.csv based on the specific date of visit.
+
