@@ -19,7 +19,10 @@ shuf -i 10000-10000000000 -n 10 | sed "s/^/&+39/g" > 04_Phone_numbers.list
 ```
 while read line; do grep "$line" encounters.csv | cut -f2,4,8,10 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" |  sed -e "s/Z\,/\,/1" >> 05_Encounters.csv; done < 01_Patients10.list
 ```
-We combined the data of 05_Encounters.csv and CNR-Rome as we need only those encounter IDs which map to a specific date in the 05_Encounters.csv for fetching several properties of the patients (such as healthissue, observations, diagnostics and medications of the patient) . 
+We combined the data of 05_Encounters.csv and CNR-Rome as we need only those encounter IDs which map to a specific date in the 05_Encounters.csv for fetching several properties of the patients (such as healthissue, observations, diagnostics and medications of the patient). The file with data combined from 05_Encounters.csv and CNR-Rome patient is encounters_romecnr.csv.
 
-6. Fetch the healthissue of each patient from the file 05_Encounters.csv based on the specific date of visit.
-
+6. Fetch the healthissue of each patient from the file conditions.csv based on specific date of visit present in encounters_romecnr.csv. 
+```
+while read line ; do date=`cat conditions.csv | grep "$line" | cut -f1,2 -d"," | tr '[,]' '[\n]' | sed '/^[[:space:]]*$/d'` ; issue=`cat conditions.csv | grep "$line" | cut -f1,2,6 -d "," | sed '/^[[:space:]]*$/d'`; myline=`cat encounters_romecnr.csv |  grep -w "$line"` ; newfile=`echo "$myline" | grep -w "$date"` ; echo "$newfile"",""$issue" >> 06_healthissue.csv; done < 01_Patients10.list
+``` 
+7. 
