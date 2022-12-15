@@ -25,4 +25,8 @@ We combined the data of 05_Encounters.csv and CNR-Rome as we need only those enc
 ```
 while read line ; do date=`cat conditions.csv | grep "$line" | cut -f1,2 -d"," | tr '[,]' '[\n]' | sed '/^[[:space:]]*$/d'` ; issue=`cat conditions.csv | grep "$line" | cut -f1,2,6 -d "," | sed '/^[[:space:]]*$/d'`; myline=`cat encounters_romecnr.csv |  grep -w "$line"` ; newfile=`echo "$myline" | grep -w "$date"` ; echo "$newfile"",""$issue" >> 06_healthissue.csv; done < 01_Patients10.list
 ``` 
-7. 
+7. Fetch the diagnostics of each patient from the file procedures.csv based on specific date of visit present in encounters_romecnr.csv.
+```
+while read line ; do date=`cat procedures.csv | grep "$line" | cut -f1 -d"," | sed "s/T[0-9].*Z//g"`; test=`cat procedures.csv | grep "$line" | cut -f1,2,5 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" | sed -e "s/Z\,/\,/1"`; myline=`cat encounters_romecnr.csv |  grep -w "$line" | grep "$date" | cut -f1,2,3,4,6 -d","`; echo -e "$myline\n$test" >> 07_diagnostics.csv; done < 01_Patients10.list
+```
+8. 
