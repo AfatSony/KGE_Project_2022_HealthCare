@@ -33,3 +33,7 @@ while read line ; do date=`cat procedures.csv | grep "$line" | cut -f1 -d"," | s
 ```
 while read line ; do date=`cat observations.csv | grep "$line" | cut -f1 -d"," | sed "s/T[0-9].*Z//g"`; test=`cat observations.csv | grep "$line" | cut -f1,2,5,6,7 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" | sed -e "s/Z\,/\,/1"`; myline=`cat encounters_romecnr.csv |  grep -w "$line" | grep "$date" | cut -f1,2,3,4,6 -d","`; echo -e "$myline\n$test" >> 08_observations.csv; done < 01_Patients10.list
 ```
+9. Fetch the medications of each patient from the file medications.csv based on specific date of visit present in encounters_romecnr.csv
+```
+while read line ; do date=`cat medications.csv | grep "$line" | cut -f1 -d"," | sed "s/T[0-9].*Z//g"`; test=`cat medications.csv | grep "$line" | cut -f1,5,7,10 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" | sed -e "s/Z\,/\,/1"`; myline=`cat encounters_romecnr.csv |  grep -w "$line" | grep "$date" | cut -f1,2,3,4,6 -d","`; echo -e "$myline\n$test" >> 09_medications.csv; done < 01_Patients10.list
+```
