@@ -1,0 +1,940 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/surya/ontologies/2022/11/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/surya/ontologies/2022/11/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:etype="http://knowdive.disi.unitn.it/etype#">
+    <owl:Ontology rdf:about="http://knowdive.disi.unitn.it/etype">
+        <owl:versionIRI rdf:resource="http://knowdive.disi.unitn.it/etype"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#isEtype -->
+
+    <owl:AnnotationProperty rdf:about="http://knowdive.disi.unitn.it/etype#isEtype"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_appointedIn_GID-112595_Type-53621 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_appointedIn_GID-112595_Type-53621">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_at_GID-132_Type-6350 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_at_GID-132_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_authorizedIn_GID-28495_Type-35583 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_authorizedIn_GID-28495_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Europe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_before_GID-114382_Type-5157 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_before_GID-114382_Type-5157">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Observations_GID-5157"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_checks_GID-31761_Type-53621 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_checks_GID-31761_Type-53621">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_conditions_GID-36419_Type-17637 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_conditions_GID-36419_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_conduct_GID-103826_Type-6350 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_conduct_GID-103826_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_diagnosedWith_GID-103532_Type-6350 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_diagnosedWith_GID-103532_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_hasActive_GID-81706_Type-55936 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_hasActive_GID-81706_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_locatedIn_GID-779_Type-19345 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_locatedIn_GID-779_Type-19345">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_prescribedTo_GID-34156_Type-3601 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_prescribedTo_GID-34156_Type-3601">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_providedBy_GID-106086_Type-3601 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_providedBy_GID-106086_Type-3601">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_record_GID-35578_Type-55936 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_record_GID-35578_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Observations_GID-5157"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_recorded_GID-35630_Type-6350 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_recorded_GID-35630_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Observations_GID-5157"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_referredTo_GID-105258_Type-6350 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_referredTo_GID-105258_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_registeredIn_GID-105155_Type-75450 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_registeredIn_GID-105155_Type-75450">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Pathology_GID-75450"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Europe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_searchesThrough_GID-4877_Type-53621 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_searchesThrough_GID-4877_Type-53621">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_spatialPartOf_GID-46452 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_spatialPartOf_GID-46452"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_take_GID-103641_Type-55936 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_take_GID-103641_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_tourist_GID-57726_Type-55936 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_tourist_GID-57726_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_treatmentOf_GID-3415 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_treatmentOf_GID-3415"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_visited_GID-45307_Type-55936 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_visited_GID-45307_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_CityID_GID-73293_Type-45969 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_CityID_GID-73293_Type-45969">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_CityName_GID-45969_Type-45969 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_CityName_GID-45969_Type-45969">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DiagnosticsDate_GID-80741_Type-99155 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DiagnosticsDate_GID-80741_Type-99155">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DiagnosticsDescription_GID-3_Type-99155 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DiagnosticsDescription_GID-3_Type-99155">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DiagnosticsID_GID-31465_Type-99155 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DiagnosticsID_GID-31465_Type-99155">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DiagnosticsTime_GID-39297_Type-99155 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DiagnosticsTime_GID-39297_Type-99155">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DrugATCcode_GID-34101_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DrugATCcode_GID-34101_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DrugActiveIngredient_GID-19510_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DrugActiveIngredient_GID-19510_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DrugAuthorization_GID-28495_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DrugAuthorization_GID-28495_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DrugConditions_GID-36419_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DrugConditions_GID-36419_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DrugName_GID-17633_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DrugName_GID-17633_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DrugPatientSafety_GID-77287_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DrugPatientSafety_GID-77287_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_DrugTherapeuticArea_GID-74784_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_DrugTherapeuticArea_GID-74784_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_Drug_alternateName_GID-31595_Type-35583 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_Drug_alternateName_GID-31595_Type-35583">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_EncounterDate_GID-80737_Type-6350 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_EncounterDate_GID-80737_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_EncounterDescription_GID-38695_Type-6350 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_EncounterDescription_GID-38695_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_EncounterID_GID-73293_Type-6350 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_EncounterID_GID-73293_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_EncounterTime_GID-80563_Type-6350 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_EncounterTime_GID-80563_Type-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_EncounterTypeofVisit_GID-6350 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_EncounterTypeofVisit_GID-6350">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_HealthIssueDescription_GID-74784_Type-74784 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_HealthIssueDescription_GID-74784_Type-74784">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_HealthIssueEndDate_GID-80741_Type-74784 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_HealthIssueEndDate_GID-80741_Type-74784">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_HealthIssueID_GID-73293_Type-74784 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_HealthIssueID_GID-73293_Type-74784">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_HealthIssueStartDate_GID-80737_Type-74784 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_HealthIssueStartDate_GID-80737_Type-74784">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_HealthIssueStatus_GID-74023_Type-74784 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_HealthIssueStatus_GID-74023_Type-74784">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_HealthcareCenterID_GID-31465_Type-19345 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_HealthcareCenterID_GID-31465_Type-19345">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_HealthcareCenterName_GID-16148_Type-19345 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_HealthcareCenterName_GID-16148_Type-19345">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_MedicationAmount_GID-28158_Type-3601 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_MedicationAmount_GID-28158_Type-3601">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_MedicationDescription_GID-20520_Type-3601 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_MedicationDescription_GID-20520_Type-3601">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_MedicationDosage_GID-73216_Type-3601 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_MedicationDosage_GID-73216_Type-3601">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_MedicationID_GID-73293_Type-3601 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_MedicationID_GID-73293_Type-3601">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_MedicationRate_GID-73446_Type-3601 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_MedicationRate_GID-73446_Type-3601">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_ObservationID_GID-73293_Type-5157 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_ObservationID_GID-73293_Type-5157">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Observations_GID-5157"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_ObservationType_GID-5157 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_ObservationType_GID-5157">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Observations_GID-5157"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_ObservationValue_GID-31912_Type-5157 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_ObservationValue_GID-31912_Type-5157">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Observations_GID-5157"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PathologyID_GID-31465_Type-75450 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PathologyID_GID-31465_Type-75450">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Pathology_GID-75450"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PathologyTherapeuticArea_GID-75450_Type-75450 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PathologyTherapeuticArea_GID-75450_Type-75450">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Pathology_GID-75450"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientDOD_GID-74220_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientDOD_GID-74220_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientID_GID-73293_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientID_GID-73293_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugAvailability_GID-26190_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugAvailability_GID-26190_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugDescription_GID-17633_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugDescription_GID-17633_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugDosage_GID-73216_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugDosage_GID-73216_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugID_GID-31465_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugID_GID-31465_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugLocation_GID-5421_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugLocation_GID-5421_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugName_GID-17633_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugName_GID-17633_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugQuantity_GID-146_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugQuantity_GID-146_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PharmacyDrugTherapeuticArea_GID-98773_Type-17637 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PharmacyDrugTherapeuticArea_GID-98773_Type-17637">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PhysicianID_GID-73293_Type-53621 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PhysicianID_GID-73293_Type-53621">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_PhysicianSpeciality_GID-3002_Type-53621 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_PhysicianSpeciality_GID-3002_Type-53621">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#City_GID-45969 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#City_GID-45969">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowdive.disi.unitn.it/etype#has_spatialPartOf_GID-46452"/>
+                <owl:someValuesFrom rdf:resource="http://knowdive.disi.unitn.it/etype#Europe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Continent -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Continent"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Diagnostics_GID-99155">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Drug_Database_GID-35583">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Europe"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowdive.disi.unitn.it/etype#has_treatmentOf_GID-3415"/>
+                <owl:someValuesFrom rdf:resource="http://knowdive.disi.unitn.it/etype#Pathology_GID-75450"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Encounter_GID-6350 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Europe -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Europe">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Continent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#HealthIssue_GID-74784">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Local_Pharmacy_GID-17637">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowdive.disi.unitn.it/etype#has_spatialPartOf_GID-46452"/>
+                <owl:someValuesFrom rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowdive.disi.unitn.it/etype#has_treatmentOf_GID-3415"/>
+                <owl:someValuesFrom rdf:resource="http://knowdive.disi.unitn.it/etype#Pathology_GID-75450"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#MedicationAdmin_GID-3601">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Observations_GID-5157 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Observations_GID-5157">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Pathology_GID-75450 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Pathology_GID-75450">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Europe"/>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Patient_GID-55936 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Patient_GID-55936">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571"/>
+                <owl:someValuesFrom rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Person -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Person"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Physician_GID-53621 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Physician_GID-53621">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571"/>
+                <owl:someValuesFrom rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <etype:isEtype rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</etype:isEtype>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Place -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Place"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
