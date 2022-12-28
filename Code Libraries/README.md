@@ -74,6 +74,7 @@ encounter_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 5)
 encounter_data$`id-patient_karma` <- paste0("Patient", encounter_data$`id-patient_karma`)
 encounter_data$`id-physician` <- paste0("P", encounter_data$`id-physician`)
 encounter_data[is.na(encounter_data)] <-  " "
+encounter_data$HCCname <-  "CNR-Rome"
 View(encounter_data)
 write.csv(encounter_data,"encounter_data.csv")
 
