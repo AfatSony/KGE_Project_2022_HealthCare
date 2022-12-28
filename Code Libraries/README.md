@@ -1,10 +1,9 @@
 This folder collects all the code libraries produced and/or adopted, during the KDI project to manage data and knowledge resources.
 (i.e., Python libs, Shell scripts, Javascript, etc)
 </br>
-**Python script for fetching the data from test.db obtained from CNR-Rome to generate csv file of the patient data.**
-
+Python script for fetching the data from test.db obtained from CNR-Rome to generate csv file of the patient data.
 </br>
-**Shell script for fetching the top 10 patients from the synthea csv file obtained from 1K Sample Synthetic Patient Records, CSV from website  https://synthea.mitre.org/downloads**
+Shell script for fetching the top 10 patients from the synthea csv file obtained from 1K Sample Synthetic Patient Records, CSV from website  https://synthea.mitre.org/downloads. 
 </br>
 1. 01_Patients10.list contains the id of 10 patients randomly taken from patients.csv.
 ```
@@ -33,11 +32,89 @@ while read line ; do date=`cat conditions.csv | grep "$line" | cut -f1,2 -d"," |
 ```
 while read line ; do date=`cat procedures.csv | grep "$line" | cut -f1 -d"," | sed "s/T[0-9].*Z//g"`; test=`cat procedures.csv | grep "$line" | cut -f1,2,5 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" | sed -e "s/Z\,/\,/1"`; myline=`cat encounters_romecnr.csv |  grep -w "$line" | grep "$date" | cut -f1,2,3,4,6 -d","`; echo -e "$myline\n$test" >> 07_diagnostics.csv; done < 01_Patients10.list
 ```
-8. Fetch the observations of each patient from the file observations.csv based on specific date of visit present in encounters_romecnr.csv
+8. Fetch the observations of each patient from the file observations.csv based on specific date of visit present in encounters_romecnr.csv.
 ```
 while read line ; do date=`cat observations.csv | grep "$line" | cut -f1 -d"," | sed "s/T[0-9].*Z//g"`; test=`cat observations.csv | grep "$line" | cut -f1,2,5,6,7 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" | sed -e "s/Z\,/\,/1"`; myline=`cat encounters_romecnr.csv |  grep -w "$line" | grep "$date" | cut -f1,2,3,4,6 -d","`; echo -e "$myline\n$test" >> 08_observations.csv; done < 01_Patients10.list
 ```
 9. Fetch the medications of each patient from the file medications.csv based on specific date of visit present in encounters_romecnr.csv
 ```
 while read line ; do date=`cat medications.csv | grep "$line" | cut -f1 -d"," | sed "s/T[0-9].*Z//g"`; test=`cat medications.csv | grep "$line" | cut -f1,5,7,10 -d"," | sed "s/\(T.*Z\)/\,\1/g" | sed -e "s/\,T/\,/1" | sed -e "s/Z\,/\,/1"`; myline=`cat encounters_romecnr.csv |  grep -w "$line" | grep "$date" | cut -f1,2,3,4,6 -d","`; echo -e "$myline\n$test" >> 09_medications.csv; done < 01_Patients10.list
+```
+
+Renaming of the .csv of datasets such as CityID, HealthCareCenterID, PatientID, PhysicianID, HealthIssueID,  DiagnosticsID, ObservationID, MedicationID, LocalPharmacyID, and NAs removal for data integration in Karma. 
+```
+library(readxl)
+
+city_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 1)
+city_data$ID <- paste0("City", city_data$ID)
+View(city_data)
+write.csv(city_data,"city_data.csv")
+
+HCC_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 2)
+HCC_data$City_Id <- paste0("City", HCC_data$City_Id)
+HCC_data$ID <- paste0("HCC", HCC_data$ID)
+View(HCC_data)
+
+write.csv(HCC_data,"HCC_data.csv")
+
+patient_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 3)
+patient_data <- patient_data[,-1]
+patient_data$`First Name` <- gsub("[[:digit:]]", "", patient_data$`First Name`)  
+patient_data$`Last name` <- gsub("[[:digit:]]", "", patient_data$`Last name`)  
+patient_data$`id-patient_karma` <- paste0("Patient", patient_data$`id-patient_karma`)
+View(patient_data)
+
+write.csv(patient_data,"patient_data.csv")
+
+physician_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 4)
+physician_data$`id-physician` <- paste0("P", physician_data$`id-physician`)
+View(physician_data)
+write.csv(physician_data,"physician_data.csv")
+
+encounter_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 5)
+encounter_data$`id-patient_karma` <- paste0("Patient", encounter_data$`id-patient_karma`)
+encounter_data$`id-physician` <- paste0("P", encounter_data$`id-physician`)
+encounter_data[is.na(encounter_data)] <-  " "
+View(encounter_data)
+write.csv(encounter_data,"encounter_data.csv")
+
+healthissue_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 6)
+healthissue_data$`id-patient_karma` <- paste0("Patient", healthissue_data$`id-patient_karma`)
+healthissue_data$id <- paste0("HI", healthissue_data$id)
+View(healthissue_data)
+write.csv(healthissue_data,"healthissue_data.csv")
+
+diagnostic_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 7)
+diagnostic_data$`id-patient_karma` <- paste0("Patient", diagnostic_data$`id-patient_karma`)
+diagnostic_data$Id <-  paste0("Diagnos", diagnostic_data$Id)
+View(diagnostic_data)
+write.csv(diagnostic_data,"diagnostic_data.csv")
+
+observation_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 8)
+observation_data$`id-patient_karma` <- paste0("Patient", observation_data$`id-patient_karma`)
+observation_data$id <-  paste0("Obs", observation_data$id)
+View(observation_data)
+write.csv(observation_data,"observation_data.csv")
+
+medication_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 9)
+medication_data$`id-patient_karma` <- paste0("Patient", medication_data$`id-patient_karma`)
+medication_data$id <- paste0("Med", medication_data$id)
+View(medication_data)
+write.csv(medication_data,"medication_data.csv", na = "")
+
+pharmacy_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 10, na = "")
+pharmacy_data$ID <- paste0("LP", pharmacy_data$ID)
+View(pharmacy_data)
+write.csv(pharmacy_data,"pharmacy_data.csv", na = "")
+
+pathology_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 11)
+pathology_data$ID <- paste0("Pathology", pathology_data$ID)
+View(pathology_data)
+write.csv(pathology_data,"pathology_data.csv")
+
+drugDB_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 12)
+drugDB_data[is.na(drugDB_data)] <-  ""
+View(drugDB_data)
+write.csv(drugDB_data,"drugDB_data.csv")
+
 ```
