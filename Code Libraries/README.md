@@ -116,6 +116,4 @@ drugDB_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 12)
 drugDB_data[is.na(drugDB_data)] <-  ""
 View(drugDB_data)
 write.csv(drugDB_data,"drugDB_data.csv")
-
-
 ```
