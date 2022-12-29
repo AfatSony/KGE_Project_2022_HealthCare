@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://localhost:8080/source/1">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/10">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/100">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/101">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/102">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/103">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/104">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/105">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/106">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/107">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/108">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/109">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/11">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/110">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/111">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/112">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/113">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/114">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/115">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/116">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/117">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/118">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/119">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/12">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/120">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/121">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/122">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/123">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/124">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/125">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/126">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/127">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/128">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/129">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/13">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/130">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/131">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/132">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/133">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/134">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/135">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/136">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/137">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/138">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/139">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/14">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/140">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/141">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/142">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/143">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/144">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/145">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/146">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/147">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/148">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/149">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/15">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/150">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/151">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/152">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/153">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/154">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/155">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/156">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/157">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/158">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/159">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/16">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/160">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/161">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/162">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/163">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/164">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/165">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/166">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/167">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/168">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/169">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/17">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/170">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/171">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/172">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/173">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/174">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/175">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/176">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/177">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/178">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/179">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/18">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/180">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/181">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/182">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/183">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/184">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/185">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/186">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/187">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/188">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/19">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/2">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/20">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/21">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/22">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/23">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/24">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/25">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/26">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/27">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/28">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/29">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/3">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/30">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/31">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/32">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/33">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/34">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/35">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/36">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/37">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/38">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/39">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/4">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/40">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/41">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/42">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/43">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/44">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/45">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/46">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/47">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/48">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/49">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/5">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/50">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/51">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/52">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/53">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/54">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/55">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/56">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/57">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/58">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/59">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/6">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/60">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/61">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/62">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/63">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/64">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/65">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/66">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/67">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/68">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/69">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/7">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/70">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/71">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/72">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/73">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/74">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/75">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/76">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/77">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/78">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/79">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/8">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/80">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/81">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/82">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/83">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/84">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/85">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/86">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/87">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/88">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/89">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/9">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/90">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/91">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/92">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/93">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/94">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/95">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/96">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/97">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/98">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/99">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Encounter_GID-6350"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/CNR-Rome">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Cerda">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Magnasco">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Matera">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/P0">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/P1">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/P2">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/P3">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Physician_GID-53621"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient1">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient10">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient11">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient2">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient3">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient4">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient5">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient6">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient7">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient8">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Patient9">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Patient_GID-55936"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Roma">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://localhost:8080/source/Walten">
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#City_GID-45969"/>
+	<rdf:type rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+</rdf:RDF>
