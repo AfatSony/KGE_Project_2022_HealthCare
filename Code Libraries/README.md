@@ -301,3 +301,138 @@ select * where
    ?obsid etype:has_ObservationValue_GID-31912_Type-5157 ?obsvalue.
 }
 ```
+CQ13. Pharmacist is looking for an active component of the prescribed drug for the treatment of hypertension. 
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select ?drugname ?disease ?activeComponent where
+{
+  ?drugid a etype:Drug_Database_GID-35583.
+  ?drugid etype:has_treatmentOf_GID-3415 ?disease.
+    filter(?disease= <http://localhost:8080/source/Hypertension>)
+    ?drugid etype:has_DrugName_GID-17633_Type-35583 ?drugname.
+  ?drugid etype:has_DrugActiveIngredient_GID-19510_Type-35583 ?activeComponent.
+}limit 5
+```
+CQ14. Pharmacist searches through database if Glidipion, a drug for Diabetes Mellitus Type 2 still available in the market or withdrawn. 
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+  ?drugid a etype:Drug_Database_GID-35583.
+  ?drugid etype:has_treatmentOf_GID-3415 ?disease.
+    filter(?disease= <http://localhost:8080/source/Diabetes%20Mellitus%2C%20Type%202>)
+    ?drugid etype:has_DrugName_GID-17633_Type-35583 ?drugname.
+    filter(?drugname="Glidipion (previously Pioglitazone Actavis Group)")
+  ?drugid etype:has_DrugAuthorization_GID-28495_Type-35583 ?authorization.
+}
+```
+CQ15. Pharmacist wants to check the dosage amount of blopress prescribed to patient ID-1. 
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+   ?patientId a etype:Patient_GID-55936.
+    filter(?patientId =<http://localhost:8080/source/Patient1>)
+   ?patientId etype:has_visited_GID-45307_Type-55936 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+   ?MedId etype:has_prescribedTo_GID-34156_Type-3601 ?encId.
+   ?MedId etype:has_MedicationDescription_GID-20520_Type-3601 ?MedDesc.
+    filter(?MedDesc ="blopress")
+   ?MedId etype:has_MedicationDosage_GID-73216_Type-3601 ?MedDosage.
+} ORDER BY DESC(?encDate)
+```
+CQ16. Pharmacist in Paris city is looking for an alternative of Tranquillante prescribed to an Italian citizen who is diagnosed with hypertension.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select ?disease ?drugname ?alternateName ?activeIngredient where
+{
+  ?drugid a etype:Drug_Database_GID-35583.
+  ?drugid etype:has_treatmentOf_GID-3415 ?disease.
+    filter(?disease= <http://localhost:8080/source/Hypertension>)
+    ?drugid etype:has_DrugName_GID-17633_Type-35583 ?drugname.
+       optional{filter(?drugname="tranquillante")}
+    ?drugid etype:has_DrugActiveIngredient_GID-19510_Type-35583 ?activeIngredient.
+    ?drugid etype:has_Drug_alternateName_GID-31595_Type-35583 ?alternateName.
+} limit 5
+```
+CQ17. Clyde visited Rome CNR on 2009-07-18 to undergo a test and wants to know what healthissue is she diagnosed with.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Clyde")
+   ?patientId etype:has_visited_GID-45307_Type-55936 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+    filter(?encDate = "2009-07-18")
+    ?encId etype:has_diagnosedWith_GID-103532_Type-6350 ?heaIssId.
+    ?heaIssId etype:has_HealthIssueDescription_GID-74784_Type-74784 ?heaDesc.
+}
+``` 
+CQ19. Tia who diagnosed with Idiopathic atrophic hypothyroidism records her BP level observations.
+``` 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+Select * where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Tia")
+   ?patientId etype:has_hasActive_GID-81706_Type-55936 ?heaId.
+    ?heaId etype:has_HealthIssueDescription_GID-74784_Type-74784 ?heaDesc.
+    ?heaId etype:has_HealthIssueStatus_GID-74023_Type-74784 ?heaStatus.
+    filter(?heaDesc="Idiopathic atrophic hypothyroidism")
+    ?encId etype:has_diagnosedWith_GID-103532_Type-6350 ?heaId.
+    optional{?obsId etype:has_recorded_GID-35630_Type-6350 ?encId.
+    ?obsId etype:has_ObservationType_GID-5157 ?obstype.
+        ?obsId etype:has_ObservationValue_GID-31912_Type-5157 ?obsvalue.}
+} 
+``` 
+—---for different health issue not in CQ19—---------
+``` 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+Select * where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Tia")
+   ?patientId etype:has_hasActive_GID-81706_Type-55936 ?heaId.
+    ?heaId etype:has_HealthIssueDescription_GID-74784_Type-74784 ?heaDesc.
+    ?heaId etype:has_HealthIssueStatus_GID-74023_Type-74784 ?heaStatus.
+    filter(?heaDesc="Streptococcal sore throat (disorder)")
+    ?encId etype:has_diagnosedWith_GID-103532_Type-6350 ?heaId.
+    optional{?obsId etype:has_recorded_GID-35630_Type-6350 ?encId.
+    ?obsId etype:has_ObservationType_GID-5157 ?obstype.
+        ?obsId etype:has_ObservationValue_GID-31912_Type-5157 ?obsvalue.}
+}
+``` 
+CQ22. Patient 1 records routine health observations and wants to track the whole record.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select ?encDate ?obstype ?obsvalue where
+{
+   ?patientId a etype:Patient_GID-55936.
+    filter(?patientId =<http://localhost:8080/source/Patient1>)
+   ?patientId etype:has_record_GID-35578_Type-55936 ?obsId.
+   ?obsId etype:has_ObservationType_GID-5157 ?obstype.
+   ?obsId etype:has_ObservationValue_GID-31912_Type-5157 ?obsvalue.
+   ?obsId etype:has_recorded_GID-35630_Type-6350 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+}ORDER BY DESC (?encDate) limit 10
+```
