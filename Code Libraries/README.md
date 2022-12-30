@@ -195,8 +195,6 @@ CQ6. Physician searches through database for a drug to prescribe to Hsiu who is 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
 PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
-
-
 select ?firstName ?encDate ?heaDesc ?heaStatus where
 {
   ?patientId a etype:Patient_GID-55936.
@@ -218,4 +216,88 @@ select ?drugname ?disease ?conditions where
   ?drugid etype:has_DrugName_GID-17633_Type-35583 ?drugname.
   ?drugid etype:has_DrugConditions_GID-36419_Type-35583 ?conditions.
 }limit 1
+```
+CQ7. Physician checks if Carvedilol, a drug for Hypertension is available in the Local pharmacy or not.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+  ?pharmacyid a etype:Local_Pharmacy_GID-17637.
+   ?pharmacyid etype:has_treatmentOf_GID-3415 ?disease.
+    filter(?disease= <http://localhost:8080/source/Hypertension>)
+   ?pharmacyid etype:has_PharmacyDrugName_GID-17633_Type-17637 ?drug.
+   filter(?drug="Carvedilol")
+   ?pharmacyid etype:has_PharmacyDrugAvailability_GID-26190_Type-17637 ?availability.
+}
+```
+CQ8. Physician wants to search through drug database for Saxenda prescribed in which comorbidity conditions to avoid side effects of the drug
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select ?drugname ?disease ?conditions where
+{
+  ?drugid a etype:Drug_Database_GID-35583.
+  ?drugid etype:has_treatmentOf_GID-3415 ?disease.
+  ?drugid etype:has_DrugName_GID-17633_Type-35583 ?drugname.
+    filter(?drugname ="Saxenda")
+  ?drugid etype:has_DrugConditions_GID-36419_Type-35583 ?conditions.
+}
+```
+CQ9. Test Examiner needs to look for the type of test to conduct for Andre on 2017-02-04. 
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select ?firstName ?encDate ?DiagDesc where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Andre")
+   ?patientId etype:has_visited_GID-45307_Type-55936 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+    filter(?encDate="2017-02-04")
+   ?encId etype:has_conduct_GID-103826_Type-6350 ?DiagId.
+   ?DiagId etype:has_DiagnosticsDescription_GID-3_Type-99155 ?DiagDesc.
+}
+```
+CQ11. Vennie has Preeclampsia and is referred to the test examiner to conduct Evaluation of uterine fundal height.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select ?firstName ?heaDesc ?heaStatus ?DiagDesc where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Vennie")
+   ?patientId etype:has_hasActive_GID-81706_Type-55936 ?heaId.
+    ?heaId etype:has_HealthIssueDescription_GID-74784_Type-74784 ?heaDesc.
+    ?heaId etype:has_HealthIssueStatus_GID-74023_Type-74784 ?heaStatus.
+    filter(?heaDesc="Preeclampsia" && ?heaStatus="open")
+   ?encId etype:has_diagnosedWith_GID-103532_Type-6350 ?heaId.
+   ?encId etype:has_conduct_GID-103826_Type-6350 ?DiagId.
+   ?DiagId etype:has_DiagnosticsDescription_GID-3_Type-99155 ?DiagDesc.
+    filter(?DiagDesc="Evaluation of uterine fundal height")
+}
+```
+CQ12. Clinician looks into the recorded observations of Patient 1 on his visit to MMG on 2019-01-02. 
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+   ?patientId a etype:Patient_GID-55936.
+    filter(?patientId =<http://localhost:8080/source/Patient1>)
+   ?patientId etype:has_visited_GID-45307_Type-55936 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+   filter(?encDate = "2019-01-02")
+   ?encId etype:has_EncounterDescription_GID-38695_Type-6350 ?EncDesc.
+   ?obsid etype:has_recorded_GID-35630_Type-6350 ?encId.
+   ?obsid etype:has_ObservationType_GID-5157 ?obstype.
+   ?obsid etype:has_ObservationValue_GID-31912_Type-5157 ?obsvalue.
+}
 ```
