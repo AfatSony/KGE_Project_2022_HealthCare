@@ -118,6 +118,7 @@ View(drugDB_data)
 write.csv(drugDB_data,"drugDB_data.csv")
 ```
 SPARQL QUERY CODES FOR COMPETENCY QUESTIONS (CQs)
+
 CQ2. Hospital staff retrieves Andre email address to send him the diagnostic test results.
 ```
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
