@@ -1,0 +1,10 @@
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/CNR-Rome> <http://knowdive.disi.unitn.it/etype#has_HealthcareCenterID_GID-31465_Type-19345> "HCC1" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/CNR-Rome> <http://knowdive.disi.unitn.it/etype#has_locatedIn_GID-779_Type-19345> <http://localhost:8080/source/Roma> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+

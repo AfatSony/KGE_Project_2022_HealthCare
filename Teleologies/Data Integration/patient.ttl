@@ -1,0 +1,170 @@
+<http://localhost:8080/source/Patient1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient1> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "M" .
+<http://localhost:8080/source/Patient1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+
+<http://localhost:8080/source/Patient2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Croce Rossa 21" .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientDOD_GID-74220_Type-55936> "2016-04-29" .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Clyde817.Ebert178@gmail.com" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1951-10-11" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "F" .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Closed" .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "392748133509" .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Roma> .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "Ebert" .
+<http://localhost:8080/source/Patient2> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Clyde" .
+<http://localhost:8080/source/Patient2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "M" .
+<http://localhost:8080/source/Patient3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientDOD_GID-74220_Type-55936> "2013-04-29" .
+<http://localhost:8080/source/Patient3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1991-06-18" .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Elijah" .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "393484496691" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Roma> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "Zboncak" .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "closed" .
+<http://localhost:8080/source/Patient3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Nazario Sauro 18" .
+<http://localhost:8080/source/Patient3> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Elijah719.Zboncak558@gmail.com" .
+
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Callicratide 84" .
+<http://localhost:8080/source/Patient4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Jayson" .
+<http://localhost:8080/source/Patient4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "M" .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Roma> .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Active" .
+<http://localhost:8080/source/Patient4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Jayson808.Fadel536@gmail.com" .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "Fadel" .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "392027969622" .
+<http://localhost:8080/source/Patient4> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1992-06-02" .
+
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1942-07-27" .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Andre" .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "395389922240" .
+<http://localhost:8080/source/Walten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Walten> .
+<http://localhost:8080/source/Patient5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "Murray" .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Genova 106" .
+<http://localhost:8080/source/Walten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Andre610.Murray856@gmail.com" .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "F" .
+<http://localhost:8080/source/Walten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient5> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Closed" .
+
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "McClure" .
+<http://localhost:8080/source/Patient6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1927-04-24" .
+<http://localhost:8080/source/Patient6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Hsiu" .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Closed" .
+<http://localhost:8080/source/Patient6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Corso Porta Nuova 45" .
+<http://localhost:8080/source/Magnasco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Magnasco> .
+<http://localhost:8080/source/Magnasco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Hsiu839.McClure239@gmail.com" .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "F" .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "394246096418" .
+<http://localhost:8080/source/Magnasco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient6> <http://knowdive.disi.unitn.it/etype#has_PatientDOD_GID-74220_Type-55936> "2018-07-24" .
+
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Edmund685.Walker122@gmail.com" .
+<http://localhost:8080/source/Cerda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Cerda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Cerda> .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Active" .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Edmund" .
+<http://localhost:8080/source/Patient7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1954-04-04" .
+<http://localhost:8080/source/Cerda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "M" .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "Walker" .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "392064723858" .
+<http://localhost:8080/source/Patient7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient7> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Scuderlando 138" .
+
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1989-05-25" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Patient8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Roma> .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via San Domenico 92" .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "JoséEduardo181.Gómez206@gmail.com" .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "JosAEduardo" .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "M" .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Active" .
+<http://localhost:8080/source/Patient8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "GÃmez" .
+<http://localhost:8080/source/Patient8> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "396788934059" .
+
+<http://localhost:8080/source/Matera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1940-04-05" .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Closed" .
+<http://localhost:8080/source/Matera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Tia76.Crona259@gmail.com" .
+<http://localhost:8080/source/Patient9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "393894860540" .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "F" .
+<http://localhost:8080/source/Patient9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Miguel de Cervantes 53" .
+<http://localhost:8080/source/Matera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Matera> .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Tia" .
+<http://localhost:8080/source/Patient9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "Crona" .
+<http://localhost:8080/source/Patient9> <http://knowdive.disi.unitn.it/etype#has_PatientDOD_GID-74220_Type-55936> "2006-01-08" .
+
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Active" .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "F" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Vennie613.Price929@gmail.com" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Alessandro Farnese 104" .
+<http://localhost:8080/source/Patient10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Vennie" .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "Price" .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "396787562000" .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Roma> .
+<http://localhost:8080/source/Patient10> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1984-01-25" .
+<http://localhost:8080/source/Patient10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_residentOf_GID-56571> <http://localhost:8080/source/Roma> .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientContact_GID-34494_Type-55936> "394868504209" .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientLastName_GID-43370_Type-55936> "O'Reilly" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientEmail_GID-105296_Type-55936> "Agueda283.O'Reilly797@gmail.com" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientDOD_GID-74220_Type-55936> "2004-05-19" .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientDOB_GID-39350_Type-55936> "1993-05-03" .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientVisitingStatus_GID-74023_Type-55936> "Closed" .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientGender_GID-27646_Type-55936> "F" .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientAddress_GID-45803_Type-55936> "Via Nizza 134" .
+<http://localhost:8080/source/Patient11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/Patient11> <http://knowdive.disi.unitn.it/etype#has_PatientFirstName_GID-2_Type-55936> "Agueda" .
+<http://localhost:8080/source/Patient11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Patient_GID-55936> .
+<http://localhost:8080/source/Patient11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+

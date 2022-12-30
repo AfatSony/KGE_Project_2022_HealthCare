@@ -1,0 +1,40 @@
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/P0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/P0> <http://knowdive.disi.unitn.it/etype#has_PhysicianSpeciality_GID-3002_Type-53621> "Patient" .
+<http://localhost:8080/source/P0> <http://knowdive.disi.unitn.it/etype#has_appointedIn_GID-112595_Type-53621> <http://localhost:8080/source/CNR-Rome> .
+<http://localhost:8080/source/P0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Physician_GID-53621> .
+<http://localhost:8080/source/P0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/P1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Physician_GID-53621> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/P1> <http://knowdive.disi.unitn.it/etype#has_PhysicianSpeciality_GID-3002_Type-53621> "MMG" .
+<http://localhost:8080/source/P1> <http://knowdive.disi.unitn.it/etype#has_appointedIn_GID-112595_Type-53621> <http://localhost:8080/source/CNR-Rome> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/P2> <http://knowdive.disi.unitn.it/etype#has_appointedIn_GID-112595_Type-53621> <http://localhost:8080/source/CNR-Rome> .
+<http://localhost:8080/source/P2> <http://knowdive.disi.unitn.it/etype#has_PhysicianSpeciality_GID-3002_Type-53621> "Farmacia" .
+<http://localhost:8080/source/P2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Physician_GID-53621> .
+<http://localhost:8080/source/P2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/P2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#HealthCareCenter_GID-19345> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/P3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Person> .
+<http://localhost:8080/source/P3> <http://knowdive.disi.unitn.it/etype#has_appointedIn_GID-112595_Type-53621> <http://localhost:8080/source/CNR-Rome> .
+<http://localhost:8080/source/P3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Physician_GID-53621> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/P3> <http://knowdive.disi.unitn.it/etype#has_PhysicianSpeciality_GID-3002_Type-53621> "laboratorio esami" .
+<http://localhost:8080/source/P3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/CNR-Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+

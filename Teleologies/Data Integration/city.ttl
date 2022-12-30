@@ -1,0 +1,25 @@
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Roma> <http://knowdive.disi.unitn.it/etype#has_CityID_GID-73293_Type-45969> "City1" .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Roma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/Walten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Walten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Walten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Walten> <http://knowdive.disi.unitn.it/etype#has_CityID_GID-73293_Type-45969> "City2" .
+
+<http://localhost:8080/source/Magnasco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Magnasco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Magnasco> <http://knowdive.disi.unitn.it/etype#has_CityID_GID-73293_Type-45969> "City3" .
+<http://localhost:8080/source/Magnasco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+
+<http://localhost:8080/source/Cerda> <http://knowdive.disi.unitn.it/etype#has_CityID_GID-73293_Type-45969> "City4" .
+<http://localhost:8080/source/Cerda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+<http://localhost:8080/source/Cerda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Cerda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+
+<http://localhost:8080/source/Matera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/Matera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Place> .
+<http://localhost:8080/source/Matera> <http://knowdive.disi.unitn.it/etype#has_CityID_GID-73293_Type-45969> "City5" .
+<http://localhost:8080/source/Matera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#City_GID-45969> .
+
