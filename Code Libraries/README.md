@@ -9,7 +9,7 @@ Shell script for fetching the top 10 patients from the synthea csv file obtained
 ```
 while read line; do grep $line patients.csv | cut -f1,2,3,8,9,15 -d "," >> 02_Patients_names.csv; done < 01_Patients10.list 
 ```
-2. Creating the phone numbers for each patients.
+2. Creating the email addresses for each patients.
 ```
 while read line; do grep "$line" patients.csv | cut -f8,9 -d "," | sed "s/[,]/\./g" | sed "s/.*/&@gmail\.com/g" >> 03_patients_email.list ; done < 01_Patients10.list
 ```
@@ -116,4 +116,105 @@ drugDB_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 12)
 drugDB_data[is.na(drugDB_data)] <-  ""
 View(drugDB_data)
 write.csv(drugDB_data,"drugDB_data.csv")
+```
+SPARQL QUERY CODES FOR COMPETENCY QUESTIONS (CQs)
+CQ2. Hospital staff retrieves Andre email address to send him the diagnostic test results.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Andre").
+  ?patientId etype:has_PatientEmail_GID-105296_Type-55936 ?patientEmail.
+}
+```
+CQ3. Hsiu is diagnosed with obesity and connects with receptionist to schedule an appointment with the clinician for routine follow up.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Hsiu")
+   ?patientId etype:has_visited_GID-45307_Type-55936 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+   ?encId etype:has_diagnosedWith_GID-103532_Type-6350 ?heaIssId.
+    ?heaIssId etype:has_HealthIssueDescription_GID-74784_Type-74784 ?heaDesc.
+    ?heaIssId etype:has_HealthIssueStatus_GID-74023_Type-74784 ?heaStatus
+    filter(?heaStatus="active")
+}
+```
+CQ4. Physician wants to refer to the last medication prescribed to Jayson who is diagnosed with Acute bronchitis. 
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select ?firstName ?encDate ?heaIssId ?heaDesc ?heaStatus ?MedDesc where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Jayson")
+   ?patientId etype:has_visited_GID-45307_Type-55936 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+   ?encId etype:has_diagnosedWith_GID-103532_Type-6350 ?heaIssId.
+   ?heaIssId etype:has_HealthIssueDescription_GID-74784_Type-74784 ?heaDesc.
+    ?heaIssId etype:has_HealthIssueStatus_GID-74023_Type-74784 ?heaStatus.
+    filter(?heaStatus="active")
+    
+    optional{ 
+        ?MedId etype:has_prescribedTo_GID-34156_Type-3601 ?encId.
+        ?MedId etype:has_MedicationDescription_GID-20520_Type-3601 ?MedDesc.}
+}ORDER BY DESC(?encDate) limit 1
+```
+CQ5. Clinician searches through the list of approved drugs that are available in the local pharmacy for hypertension.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+select * where
+{
+  ?pharmacyid a etype:Local_Pharmacy_GID-17637.
+   ?pharmacyid etype:has_treatmentOf_GID-3415 ?disease.
+    filter(?disease= <http://localhost:8080/source/Hypertension>)
+        ?pharmacyid etype:has_PharmacyDrugName_GID-17633_Type-17637 ?drug.
+        ?pharmacyid etype:has_PharmacyDrugAvailability_GID-26190_Type-17637 ?availability.
+    optional{ 
+        ?pharmacyid  etype:has_conditions_GID-36419_Type-17637 ?drugDB.
+        ?drugDB etype:has_DrugAuthorization_GID-28495_Type-35583 ?Approval.
+    }        
+}
+```
+CQ6. Physician searches through database for a drug to prescribe to Hsiu who is diagnosed with Coronary Heart Disease and has active Prediabetes comorbidity.
+```
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+PREFIX etype:<http://knowdive.disi.unitn.it/etype#>
+
+
+select ?firstName ?encDate ?heaDesc ?heaStatus where
+{
+  ?patientId a etype:Patient_GID-55936.
+    optional{?patientId etype:has_PatientFirstName_GID-2_Type-55936 ?firstName.}
+    filter(?firstName ="Hsiu")
+   ?patientId etype:has_visited_GID-45307_Type-55936 ?encId.
+   ?encId etype:has_EncounterDate_GID-80737_Type-6350 ?encDate.
+   ?encId etype:has_diagnosedWith_GID-103532_Type-6350 ?heaIssId.
+   ?heaIssId etype:has_HealthIssueDescription_GID-74784_Type-74784 ?heaDesc.
+   ?heaIssId etype:has_HealthIssueStatus_GID-74023_Type-74784 ?heaStatus.
+   filter(?heaDesc = "Coronary Heart Disease" || ?heaDesc = "Prediabetes")
+}Order BY DESC (?encDate) 
+
+select ?drugname ?disease ?conditions where
+{
+  ?drugid a etype:Drug_Database_GID-35583.
+  ?drugid etype:has_treatmentOf_GID-3415 ?disease.
+  filter(?disease= <http://localhost:8080/source/Myocardial%20Infarction;%20Acute%20Coronary%20Syndrome;%20Peripheral%20Vascular%20Diseases;%20Stroke>)
+  ?drugid etype:has_DrugName_GID-17633_Type-35583 ?drugname.
+  ?drugid etype:has_DrugConditions_GID-36419_Type-35583 ?conditions.
+}limit 1
 ```
