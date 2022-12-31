@@ -1,0 +1,162 @@
+55,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,26/11/1970,08:39:57,outpatient,Encounter for check up (procedure)
+56,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,28/09/2002,08:39:57,inpatient,Periodic reevaluation and management of healthy individual (procedure)
+70,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,24/08/2008,08:39:57,ambulatory,Encounter for symptom
+71,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,31/08/2008,08:39:57,ambulatory,Encounter for 'check-up'
+76,0522e580-6775-49f5-b471-b39624280402,2,3,esami clinici,19/05/2009,08:39:57,emergency,Emergency room admission (procedure)
+77,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,18/07/2009,08:39:57,ambulatory,Encounter for 'check-up'
+90,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,09/10/2011,08:39:57,ambulatory,Encounter for 'check-up'
+92,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,20/10/2011,08:39:57,ambulatory,Encounter for problem
+98,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,29/11/2012,08:39:57,ambulatory,Encounter for 'check-up'
+107,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,14/10/2014,08:39:57,ambulatory,Encounter for problem
+114,0522e580-6775-49f5-b471-b39624280402,2,1,visita MMG,26/08/2015,08:39:57,ambulatory,Encounter for symptom
+116,0522e580-6775-49f5-b471-b39624280402,2,3,esami clinici,04/09/2015,08:39:57,wellness,General examination of patient (procedure)
+26/11/1970,,Body mass index 30+ - obesity (finding),,,,,,
+28/09/2002,,Malignant neoplasm of breast (disorder),,,,,,
+24/08/2008,31/08/2008,Acute viral pharyngitis (disorder),,,,,,
+19/05/2009,18/07/2009,Fracture subluxation of wrist,,,,,,
+09/10/2011,,Polyp of colon,,,,,,
+20/10/2011,29/11/2012,Primary malignant neoplasm of colon,,,,,,
+14/10/2014,,Chronic congestive heart failure (disorder),,,,,,
+26/08/2015,04/09/2015,Acute viral pharyngitis (disorder),,,,,,
+129,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,05/05/2008,13:16:28,ambulatory,Encounter for symptom
+130,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,3,esami clinici,16/06/2008,13:16:28,wellness,General examination of patient (procedure)
+132,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,10/01/2009,13:16:28,ambulatory,Encounter for symptom
+134,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,23/03/2010,13:16:28,ambulatory,Encounter for symptom
+135,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,30/03/2010,13:16:28,wellness,Encounter for 'check-up'
+136,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,03/08/2010,13:16:28,ambulatory,Encounter for symptom (procedure)
+137,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,03/08/2010,13:16:28,ambulatory,Initial Psychiatric Interview with mental status evaluation
+179,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,3,esami clinici,02/08/2011,13:16:28,emergency,Emergency room admission (procedure)
+195,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,08/12/2011,13:16:28,ambulatory,Encounter for problem (procedure)
+196,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,1,visita MMG,08/12/2011,13:16:28,ambulatory,Follow-up encounter
+198,09fc03c4-aef7-47e1-941a-618f437dfbe2,3,3,esami clinici,29/04/2013,13:16:28,emergency,Emergency Room Admission
+05/05/2008,16/06/2008,Acute bacterial sinusitis (disorder),,,,,,
+10/01/2009,23/01/2009,Acute viral pharyngitis (disorder),,,,,,
+23/03/2010,30/03/2010,Acute viral pharyngitis (disorder),,,,,,
+03/08/2010,08/12/2011,Major depression  single episode,,,,,,
+03/08/2010,,Major depression disorder,,,,,,
+02/08/2011,16/08/2011,Sprain of ankle,,,,,,
+29/04/2013,,Drug overdose,,,,,,
+200,10339b10-3cd1-4ac3-ac13-ec26728cb592,4,1,visita MMG,13/05/2011,12:58:08,ambulatory,Encounter for symptom
+201,10339b10-3cd1-4ac3-ac13-ec26728cb592,4,1,visita MMG,27/05/2011,12:58:08,wellness,Encounter for check up (procedure)
+205,10339b10-3cd1-4ac3-ac13-ec26728cb592,4,1,visita MMG,11/08/2011,12:58:08,ambulatory,Encounter for symptom
+207,10339b10-3cd1-4ac3-ac13-ec26728cb592,4,1,visita MMG,01/09/2011,12:58:08,wellness,Encounter for check up (procedure)
+208,10339b10-3cd1-4ac3-ac13-ec26728cb592,4,3,esami clinici,22/01/2017,12:58:08,emergency,Emergency room admission (procedure)
+210,10339b10-3cd1-4ac3-ac13-ec26728cb592,4,1,visita MMG,23/04/2019,12:58:08,ambulatory,Encounter for symptom
+212,10339b10-3cd1-4ac3-ac13-ec26728cb592,4,1,visita MMG,07/05/2019,12:58:08,outpatient,Encounter for check up (procedure)
+13/05/2011,27/05/2011,Acute bronchitis (disorder),,,,,,
+11/08/2011,01/09/2011,Viral sinusitis (disorder),,,,,,
+22/01/2017,12/02/2017,Laceration of foot,,,,,,
+23/04/2019,07/05/2019,Acute bronchitis (disorder),,,,,,
+215,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,1,visita MMG,14/10/1974,18:04:39,ambulatory,Prenatal initial visit
+216,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,1,visita MMG,02/06/1980,18:04:39,ambulatory,Prenatal initial visit
+217,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,1,visita MMG,04/10/2010,18:04:39,ambulatory,Encounter for symptom
+219,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,1,visita MMG,14/10/2010,18:04:39,wellness,Encounter for check up (procedure)
+222,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,3,esami clinici,17/07/2011,18:04:39,emergency,Emergency room admission (procedure)
+225,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,3,esami clinici,10/08/2013,18:04:39,emergency,Emergency room admission (procedure)
+230,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,3,esami clinici,04/02/2017,18:04:39,emergency,Emergency room admission (procedure)
+231,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,3,esami clinici,12/04/2017,19:04:39,wellness,General examination of patient (procedure)
+235,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,1,visita MMG,12/05/2019,18:04:39,ambulatory,Encounter for symptom
+236,144edc8e-936e-42d7-8e7d-f3578cf80cc2,5,1,visita MMG,19/05/2019,18:04:39,wellness,Encounter for check up (procedure)
+14/10/1974,,Miscarriage in first trimester,,,,,,
+02/06/1980,,Tubal pregnancy,,,,,,
+04/10/2010,14/10/2010,Acute viral pharyngitis (disorder),,,,,,
+17/07/2011,21/08/2011,Sprain of ankle,,,,,,
+10/08/2013,24/08/2013,Sprain of ankle,,,,,,
+04/02/2017,12/04/2017,Rupture of patellar tendon,,,,,,
+12/05/2019,19/05/2019,Viral sinusitis (disorder),,,,,,
+238,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,25/04/1948,18:46:22,ambulatory,Prenatal initial visit
+239,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,3,esami clinici,09/07/1961,18:46:22,wellness,General examination of patient (procedure)
+240,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,3,esami clinici,04/05/1969,18:46:22,wellness,General examination of patient (procedure)
+241,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,3,esami clinici,06/05/1979,18:46:22,wellness,General examination of patient (procedure)
+245,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,23/04/1982,18:46:22,ambulatory,Encounter for 'check-up'
+253,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,19/07/1988,18:46:22,ambulatory,Encounter for 'check-up'
+255,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,12/04/1990,18:46:22,inpatient,Encounter Inpatient
+257,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,3,esami clinici,25/02/1991,18:46:22,emergency,Emergency Room Admission
+259,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,08/08/1991,18:46:22,inpatient,Encounter Inpatient
+260,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,12/02/1992,18:46:22,inpatient,Encounter Inpatient
+267,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,12/10/1997,18:46:22,emergency,Stroke
+308,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,14/03/2012,18:46:22,ambulatory,Encounter for symptom
+312,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,1,visita MMG,26/05/2012,18:46:22,ambulatory,Encounter for symptom
+330,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,3,esami clinici,17/11/2013,18:46:22,wellness,General examination of patient (procedure)
+346,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,3,esami clinici,10/12/2017,18:46:22,wellness,General examination of patient (procedure)
+348,1c0cea09-f0db-4ef0-a551-d67645ee4538,6,3,esami clinici,18/07/2018,18:46:22,inpatient,Hospital admission
+25/04/1948,,Miscarriage in first trimester,,,,,,
+09/07/1961,,Body mass index 30+ - obesity (finding),,,,,,
+04/05/1969,,Prediabetes,,,,,,
+06/05/1979,,Hyperlipidemia,,,,,,
+23/04/1982,21/07/1983,Polyp of colon,,,,,,
+19/07/1988,,Polyp of colon,,,,,,
+12/04/1990,,Chronic pain,,,,,,
+25/02/1991,,Drug overdose,,,,,,
+08/08/1991,,Impacted molars,,,,,,
+12/02/1992,,Chronic intractable migraine without aura,,,,,,
+12/10/1997,,Stroke,,,,,,
+14/10/2007,,Alzheimer's disease (disorder),,,,,,
+14/03/2012,21/03/2012,Viral sinusitis (disorder),,,,,,
+26/05/2012,09/06/2012,Viral sinusitis (disorder),,,,,,
+17/11/2013,,Coronary Heart Disease,,,,,,
+10/12/2017,,Osteoporosis (disorder),,,,,,
+18/07/2018,,Pneumonia,,,,,,
+349,1c591f0d-95b1-4289-94a9-9713ab3834e7,7,1,visita MMG,19/04/1983,21:42:25,ambulatory,Encounter for symptom
+351,1c591f0d-95b1-4289-94a9-9713ab3834e7,7,3,esami clinici,19/06/1988,21:42:25,wellness,General examination of patient (procedure)
+352,1c591f0d-95b1-4289-94a9-9713ab3834e7,7,1,visita MMG,26/03/1989,21:42:25,ambulatory,Encounter for problem
+354,1c591f0d-95b1-4289-94a9-9713ab3834e7,7,1,visita MMG,30/07/2010,21:42:25,ambulatory,Encounter for symptom
+358,1c591f0d-95b1-4289-94a9-9713ab3834e7,7,1,visita MMG,07/07/2013,21:42:25,ambulatory,Encounter for symptom
+19/04/1983,,Chronic sinusitis (disorder),,,,,,
+19/06/1988,,Body mass index 30+ - obesity (finding),,,,,,
+26/03/1989,,Osteoarthritis of knee,,,,,,
+30/07/2010,13/08/2010,Viral sinusitis (disorder),,,,,,
+07/07/2013,14/07/2013,Viral sinusitis (disorder),,,,,,
+365,1d604da9-9a81-4ba9-80c2-de3375d59b40,8,1,visita MMG,01/05/2001,15:02:18,ambulatory,Encounter for symptom
+367,1d604da9-9a81-4ba9-80c2-de3375d59b40,8,1,visita MMG,08/12/2011,15:02:18,ambulatory,Encounter for symptom
+370,1d604da9-9a81-4ba9-80c2-de3375d59b40,8,1,visita MMG,20/03/2019,15:02:18,ambulatory,Encounter for symptom
+01/05/2001,,Chronic sinusitis (disorder),,,,,,
+08/12/2011,22/12/2011,Viral sinusitis (disorder),,,,,,
+20/03/2019,10/04/2019,Viral sinusitis (disorder),,,,,,
+372,1d7fe784-8667-47e8-b733-8e6ec0fbb5f9,9,3,esami clinici,16/04/1982,19:13:29,wellness,General examination of patient (procedure)
+373,1d7fe784-8667-47e8-b733-8e6ec0fbb5f9,9,1,visita MMG,30/03/1992,19:13:29,ambulatory,Encounter for Problem
+379,1d7fe784-8667-47e8-b733-8e6ec0fbb5f9,9,1,visita MMG,23/08/2000,19:13:29,ambulatory,Encounter for symptom
+381,1d7fe784-8667-47e8-b733-8e6ec0fbb5f9,9,3,esami clinici,14/06/2002,19:13:29,wellness,General examination of patient (procedure)
+387,1d7fe784-8667-47e8-b733-8e6ec0fbb5f9,9,3,esami clinici,20/03/2005,19:13:29,emergency,Emergency Room Admission
+16/04/1982,,Body mass index 30+ - obesity (finding),,,,,,
+30/03/1992,,Idiopathic atrophic hypothyroidism,,,,,,
+23/08/2000,04/09/2000,Streptococcal sore throat (disorder),,,,,,
+14/06/2002,,Hyperlipidemia,,,,,,
+20/03/2005,,Seizure disorder,,,,,,
+20/03/2005,,History of single seizure (situation),,,,,,
+391,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,15/11/1998,11:45:35,ambulatory,Encounter for symptom
+396,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,06/03/2011,11:45:35,ambulatory,Encounter for symptom
+399,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,30/03/2011,11:45:35,ambulatory,Prenatal initial visit
+408,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,3,esami clinici,02/11/2011,11:45:35,emergency,Obstetric emergency hospital admission
+412,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,01/05/2013,11:45:35,ambulatory,Prenatal initial visit
+418,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,20/09/2013,11:45:35,ambulatory,Encounter for symptom
+419,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,16/10/2013,11:45:35,ambulatory,Prenatal visit
+422,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,3,esami clinici,04/12/2013,11:45:35,emergency,Obstetric emergency hospital admission
+428,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,23/01/2018,11:45:35,ambulatory,Encounter for problem
+430,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,29/05/2019,11:45:35,ambulatory,Prenatal initial visit
+431,1f8da3b0-dd67-4925-a6d9-43a02d8402a7,10,1,visita MMG,12/06/2019,11:45:35,ambulatory,Prenatal visit
+15/11/1998,,Chronic sinusitis (disorder),,,,,,
+06/03/2011,20/03/2011,Acute bronchitis (disorder),,,,,,
+30/03/2011,02/11/2011,Normal pregnancy,,,,,,
+01/05/2013,04/12/2013,Normal pregnancy,,,,,,
+20/09/2013,11/10/2013,Viral sinusitis (disorder),,,,,,
+16/10/2013,04/12/2013,Preeclampsia,,,,,,
+23/01/2018,19/11/2018,Contact dermatitis,,,,,,
+29/05/2019,12/06/2019,Normal pregnancy,,,,,,
+29/05/2019,,Miscarriage in first trimester,,,,,,
+29/05/2019,12/06/2019,Fetus with unknown complication,,,,,,
+434,3886269a-5118-4f12-95fe-6c5440b53c0d,11,1,visita MMG,03/09/1994,20:03:59,ambulatory,Encounter for symptom
+436,3886269a-5118-4f12-95fe-6c5440b53c0d,11,3,esami clinici,22/02/1995,20:03:59,emergency,Emergency room admission (procedure)
+438,3886269a-5118-4f12-95fe-6c5440b53c0d,11,1,visita MMG,23/05/1995,20:03:59,outpatient,Encounter for symptom
+439,3886269a-5118-4f12-95fe-6c5440b53c0d,11,1,visita MMG,09/10/1995,20:03:59,wellness,Well child visit (procedure)
+442,3886269a-5118-4f12-95fe-6c5440b53c0d,11,1,visita MMG,02/12/1996,20:03:59,outpatient,Encounter for symptom
+443,3886269a-5118-4f12-95fe-6c5440b53c0d,11,1,visita MMG,07/04/1997,20:03:59,wellness,Well child visit (procedure)
+446,3886269a-5118-4f12-95fe-6c5440b53c0d,11,1,visita MMG,27/05/1999,20:03:59,outpatient,Encounter for symptom
+447,3886269a-5118-4f12-95fe-6c5440b53c0d,11,1,visita MMG,24/04/2000,20:03:59,wellness,Well child visit (procedure)
+452,3886269a-5118-4f12-95fe-6c5440b53c0d,11,3,esami clinici,19/05/2004,20:03:59,emergency,Emergency room admission (procedure)
+03/09/1994,24/09/1994,Viral sinusitis (disorder),,,,,,
+22/02/1995,08/03/1995,Sprain of ankle,,,,,,
+23/05/1995,09/10/1995,Otitis media,,,,,,
+02/12/1996,07/04/1997,Otitis media,,,,,,
+27/05/1999,24/04/2000,Otitis media,,,,,,
+19/05/2004,,Bullet wound,,,,,,
