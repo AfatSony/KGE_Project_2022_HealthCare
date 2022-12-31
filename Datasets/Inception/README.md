@@ -5,7 +5,7 @@ The datasets were collected from Synthea website https://synthea.mitre.org/downl
 The drug database data (Medicines_output_european_public_assessment_reports.xlsx) was downloaded from PharmGKB [2] https://www.pharmgkb.org/labelAnnotations and the dataset was downloaded from https://www.ema.europa.eu/en/medicines/download-medicine-data under the download link of ”Download table of all EPARs for human and
 veterinary medicines”.
 
-The CNR-Rome data was provided by Prof. Fausto Giunchiglia as it is sensitive data, it is not published here, please contact the relevant person for further details
+The CNR-Rome data was provided by Prof. Fausto Giunchiglia as it is sensitive data, it is not published here, please contact the relevant person for further details.
 
 [1] Walonoski, J., Kramer, M., Nichols, J., Quina, A., Moesel, C., Hall, D., ... McLachlan, S.
     (2018). Synthea: An approach, method, and software mechanism for generating synthetic
