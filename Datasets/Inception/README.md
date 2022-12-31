@@ -2,7 +2,10 @@ Inception datasets (collected from data sources)
 
 The datasets were collected from Synthea website https://synthea.mitre.org/downloads [1], 1K Sample Synthetic Patient Records, in CSV format. synthea_sample_data_csv_apr2020.zip (https://synthetichealth.github.io/synthea-sample-data/downloads/synthea_sample_data_csv_apr2020.zip) contains .csv files for 1000 patients from which we extracted data for 10 random patients which are present here for patients' names, encounters, observations, medications, phone numbers, email-address, health issues and diagnostics. 
 
-The drug database 
+The drug database was downloaded from PharmGKB [3] https://www.pharmgkb.org/labelAnnotations and
+the dataset was downloaded from https://www.ema.europa.eu/en/medicines/download-medicine-data under the download link of ”Download table of all EPARs for human and
+veterinary medicines”.
+ 
 
 
 
