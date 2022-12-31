@@ -9,6 +9,7 @@ veterinary medicines”.
     (2018). Synthea: An approach, method, and software mechanism for generating synthetic
     patients and the synthetic electronic health care record. Journal of the American Medical
     Informatics Association, 25(3), 230-238.
+    
 [2] Whirl-Carrillo, M., Huddart, R., Gong, L., Sangkuhl, K., Thorn, C. F., Whaley, R., Klein,
     T. E. (2021). An evidence-based framework for evaluating pharmacogenomics knowledge
     for personalized medicine. Clinical Pharmacology & Therapeutics, 110(3), 563-572.
