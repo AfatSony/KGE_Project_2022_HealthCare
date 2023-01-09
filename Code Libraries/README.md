@@ -3,6 +3,55 @@ This folder collects all the code libraries produced and/or adopted, during the 
 </br>
 Python script for fetching the data from test.db obtained from CNR-Rome to generate csv file of the patient data.
 </br>
+```
+import pandas as pd
+from sqlalchemy import create_engine
+from sqlite3 import connect
+conn = connect(':memory:')
+df = pd.DataFrame(data=[[0, '10/11/12'], [1, '12/11/10']],
+                  columns=['int_column', 'date_column'])
+df.to_sql('test_data', conn)
+pd.read_sql('SELECT int_column, date_column FROM test_data', conn)
+import os
+os.getcwd()
+os.chdir("/Users/sony/Desktop/KGE/KGE_Project") # get the directory path in which the file is located according to your working machine
+import sqlite3
+from sqlite3 import OperationalError
+conn = sqlite3.connect('test.db')
+c = conn.cursor()
+fd = open('KG_Trento.db.sql', 'r')
+sqlFile = fd.read()
+fd.close()
+
+# all SQL commands (split on ';')
+sqlCommands = sqlFile.split(';')
+# Execute every command from the input file
+for command in sqlCommands:
+    # This will skip and report errors
+    # For example, if the tables do not yet exist, this will skip over
+    # the DROP TABLE commands
+    try:
+        c.execute(command)
+    except OperationalError as msg:
+        print ("Command skipped: ", msg)
+ # SQLAlchemy connectable
+cnx = create_engine('sqlite:///test.db').connect()
+# Create a Pandas Excel writer using XlsxWriter as the engine.
+writer = pd.ExcelWriter('rome_cnr.xlsx', engine='xlsxwriter')
+
+for table in ['Patient', 'Physician', 'Encounter','Healthissue','Observation','MedicationAdmin']:
+    
+    df = pd.read_sql_table(table, cnx) ;
+   # df.to_excel("output%s.xlsx" % num,sheet_name="Sheet_1");
+   # Write each dataframe to a different worksheet.
+    df.to_excel(writer, sheet_name='%s' %table)
+
+# Close the Pandas Excel writer and output the Excel file.
+writer.save()
+conn.commit()
+c.close()
+
+```
 Shell script for fetching the top 10 patients from the synthea csv file obtained from 1K Sample Synthetic Patient Records, CSV from website  https://synthea.mitre.org/downloads. 
 </br>
 1. 01_Patients10.list contains the id of 10 patients randomly taken from patients.csv.
