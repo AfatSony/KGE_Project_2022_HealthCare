@@ -14,7 +14,8 @@ df.to_sql('test_data', conn)
 pd.read_sql('SELECT int_column, date_column FROM test_data', conn)
 import os
 os.getcwd()
-os.chdir("/Users/sony/Desktop/KGE/KGE_Project") # get the directory path in which the file is located according to your working machine
+# get the directory path in which the file is located according to your working machine
+os.chdir("/Users/sony/Desktop/KGE/KGE_Project") 
 import sqlite3
 from sqlite3 import OperationalError
 conn = sqlite3.connect('test.db')
