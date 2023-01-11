@@ -14,24 +14,25 @@ For this project we used iTelos Methodology and the phases are enlisted in order
 3. Formal Modeling
 4. Data Integration
 
-Folders in the repository:
-## Code Libraries: 
+** Folders in the repository: **
+### Code Libraries: 
 
 All the codes related to the project are present in the given hyperlink. The codes were written in python, bash scripts and R and can be found in the link below:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Code%20Libraries>
-## Datasets:
+### Datasets:
 
 The datasets used in the inception, informal modelling, formal modelling and data integration phases can be found in the given link:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Datasets>
-## Documentation:
 
-The project report and the final presentation can be found under this link:
-<https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Documentation>
-## Teleologies:
+### Teleologies:
 
 The teleologies generated in each of the phases: inception, informal modelling, formal modelling and data integration, can be found in the given link:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Teleologies>
 
+### Documentation:
+
+The project report and the final presentation can be found under this link:
+<https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Documentation>
 
 
 The knowledge graph creation was done in GraphDB and the querying of the data was done using GraphDB inbuilt SparQL. 
