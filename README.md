@@ -18,9 +18,10 @@ Folders in the repository:
 # Code Libraries:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Code%20Libraries>
 # Datasets:
-
+<https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Datasets>
 # Documentation:
-
+<https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Documentation>
 # Teleologies:
+<https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Teleologies>
 
 
