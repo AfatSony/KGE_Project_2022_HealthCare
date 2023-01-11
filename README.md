@@ -14,7 +14,7 @@ For this project we used iTelos Methodology and the phases are enlisted in order
 3. Formal Modeling
 
 The formal modelling consists of a well defined Entity Relationship (ER) model: 
-![ER diagram]https://github.com/AfatSony/KGE_Project_2022_HealthCare/blob/main/ER%20Diagram_new.png
+![ER diagram](https://github.com/AfatSony/KGE_Project_2022_HealthCare/blob/main/ER%20Diagram_new.png)
 
 4. Data Integration
 
