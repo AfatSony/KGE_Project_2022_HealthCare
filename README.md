@@ -14,6 +14,7 @@ For this project we used iTelos Methodology and the phases are enlisted in order
 3. Formal Modeling
 
 The formal modelling consists of a well defined Entity Relationship (ER) model: 
+
 ![ER diagram](https://github.com/AfatSony/KGE_Project_2022_HealthCare/blob/main/ER%20Diagram_new.png)
 
 4. Data Integration
@@ -38,4 +39,5 @@ The teleologies generated in each of the phases: inception, informal modelling, 
 
 
 
-The knowledge graph creation was done in GraphDB and the querying of the data was done using GraphDB inbuilt SparQL. 
+The knowledge graph creation was done in GraphDB and the querying of the data was done using GraphDB inbuilt SparQL. One such instance of the knowledge graph for understanding the patient's medication is shown in the figure below 
+![GraphDb] (https://github.com/AfatSony/KGE_Project_2022_HealthCare/blob/main/medication.png)
