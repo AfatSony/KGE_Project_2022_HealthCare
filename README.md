@@ -14,4 +14,13 @@ For this project we used iTelos Methodology:
 3. Formal Modeling
 4. Data Integration
 
+Folders in the repository:
+# Code Libraries:
+
+# Datasets:
+
+# Documentation:
+
+# Teleologies:
+
 
