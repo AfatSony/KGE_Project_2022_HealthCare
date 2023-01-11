@@ -8,20 +8,28 @@ This project deals with patients data from Rome CNR and sythetic data from Synth
 - Such KG could help the new hospital take necessary steps towards patient's fast treament without losing time. 
 
 
-For this project we used iTelos Methodology:
+For this project we used iTelos Methodology and the phases are enlisted in order below:
 1. Inception
 2. Informal Modeling
 3. Formal Modeling
 4. Data Integration
 
 Folders in the repository:
-# Code Libraries:
+# Code Libraries: 
+
+All the codes related to the project are present in the given hyperlink. The codes were written in python, bash scripts and R and can be found in the link below:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Code%20Libraries>
 # Datasets:
+
+The datasets used in the inception, informal modelling, formal modelling and data integration phases can be found in the given link:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Datasets>
 # Documentation:
+
+The project report and the final presentation can be found under this link:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Documentation>
 # Teleologies:
+
+The teleologies generated in each of the phases: inception, informal modelling, formal modelling and data integration, can be found in the given link:
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Teleologies>
 
 
