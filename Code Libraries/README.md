@@ -98,19 +98,19 @@ R script for renaming of values in the .csv of each dataset such as CityID, Heal
 ```
 library(readxl)
 
-city_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 1)
+city_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 1)
 city_data$ID <- paste0("City", city_data$ID)
 View(city_data)
 write.csv(city_data,"city_data.csv")
 
-HCC_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 2)
+HCC_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 2)
 HCC_data$City_Id <- paste0("City", HCC_data$City_Id)
 HCC_data$ID <- paste0("HCC", HCC_data$ID)
 View(HCC_data)
 
 write.csv(HCC_data,"HCC_data.csv")
 
-patient_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 3)
+patient_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 3)
 patient_data <- patient_data[,-1]
 patient_data$`First Name` <- gsub("[[:digit:]]", "", patient_data$`First Name`)  
 patient_data$`Last name` <- gsub("[[:digit:]]", "", patient_data$`Last name`)  
@@ -119,12 +119,12 @@ View(patient_data)
 
 write.csv(patient_data,"patient_data.csv")
 
-physician_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 4)
+physician_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 4)
 physician_data$`id-physician` <- paste0("P", physician_data$`id-physician`)
 View(physician_data)
 write.csv(physician_data,"physician_data.csv")
 
-encounter_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 5)
+encounter_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 5)
 encounter_data$`id-patient_karma` <- paste0("Patient", encounter_data$`id-patient_karma`)
 encounter_data$`id-physician` <- paste0("P", encounter_data$`id-physician`)
 encounter_data[is.na(encounter_data)] <-  " "
@@ -132,41 +132,41 @@ encounter_data$HCCname <-  "CNR-Rome"
 View(encounter_data)
 write.csv(encounter_data,"encounter_data.csv")
 
-healthissue_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 6)
+healthissue_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 6)
 healthissue_data$`id-patient_karma` <- paste0("Patient", healthissue_data$`id-patient_karma`)
 healthissue_data$id <- paste0("HI", healthissue_data$id)
 View(healthissue_data)
 write.csv(healthissue_data,"healthissue_data.csv")
 
-diagnostic_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 7)
+diagnostic_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 7)
 diagnostic_data$`id-patient_karma` <- paste0("Patient", diagnostic_data$`id-patient_karma`)
 diagnostic_data$Id <-  paste0("Diagnos", diagnostic_data$Id)
 View(diagnostic_data)
 write.csv(diagnostic_data,"diagnostic_data.csv")
 
-observation_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 8)
+observation_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 8)
 observation_data$`id-patient_karma` <- paste0("Patient", observation_data$`id-patient_karma`)
 observation_data$id <-  paste0("Obs", observation_data$id)
 View(observation_data)
 write.csv(observation_data,"observation_data.csv")
 
-medication_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 9)
+medication_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 9)
 medication_data$`id-patient_karma` <- paste0("Patient", medication_data$`id-patient_karma`)
 medication_data$id <- paste0("Med", medication_data$id)
 View(medication_data)
 write.csv(medication_data,"medication_data.csv", na = "")
 
-pharmacy_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 10, na = "")
+pharmacy_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 10, na = "")
 pharmacy_data$ID <- paste0("LP", pharmacy_data$ID)
 View(pharmacy_data)
 write.csv(pharmacy_data,"pharmacy_data.csv", na = "")
 
-pathology_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 11)
+pathology_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 11)
 pathology_data$ID <- paste0("Pathology", pathology_data$ID)
 View(pathology_data)
 write.csv(pathology_data,"pathology_data.csv")
 
-drugDB_data <- read_excel("FINAL_DATSET_KGE.xlsx",sheet = 12)
+drugDB_data <- read_excel("FINAL_DATASET_KGE.xlsx",sheet = 12)
 drugDB_data[is.na(drugDB_data)] <-  ""
 View(drugDB_data)
 write.csv(drugDB_data,"drugDB_data.csv")
