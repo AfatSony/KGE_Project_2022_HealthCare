@@ -33,6 +33,4 @@ The teleologies generated in each of the phases: inception, informal modelling, 
 <https://github.com/AfatSony/KGE_Project_2022_HealthCare/tree/main/Teleologies>
 
 
-
 The knowledge graph creation was done in GraphDB and the querying of the data was done using GraphDB inbuilt SparQL.
-
