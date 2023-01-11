@@ -40,4 +40,4 @@ The teleologies generated in each of the phases: inception, informal modelling, 
 
 
 The knowledge graph creation was done in GraphDB and the querying of the data was done using GraphDB inbuilt SparQL. One such instance of the knowledge graph for understanding the patient's medication is shown in the figure below 
-![GraphDb] (https://github.com/AfatSony/KGE_Project_2022_HealthCare/blob/main/medication.png)
+![GraphDb](https://github.com/AfatSony/KGE_Project_2022_HealthCare/blob/main/medication.png)
