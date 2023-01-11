@@ -1,4 +1,4 @@
-# HealthCareCentre: RomeCNR
+## Health Care Centre: RomeCNR
 This repository is for KGE-Project developed during the KGE2022-23 course.
 
 This project deals with patients data from Rome CNR and sythetic data from Synthea to integrate to help make a Knowledge Graph (KG).
