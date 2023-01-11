@@ -14,7 +14,7 @@ For this project we used iTelos Methodology and the phases are enlisted in order
 3. Formal Modeling
 4. Data Integration
 
-** Folders in the repository:
+**Folders in the repository:**
 ### Code Libraries: 
 
 All the codes related to the project are present in the given hyperlink. The codes were written in python, bash scripts and R and can be found in the link below:
